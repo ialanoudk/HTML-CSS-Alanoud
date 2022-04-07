@@ -1,0 +1,67 @@
+body{
+     background-color: rgb(202, 176, 227);
+     background-repeat:no-repeat;
+}
+.contanier{
+    position: relative;
+    left: 60px;
+}
+img.left {
+    float: left;
+}
+
+P.pra1{
+    position: relative;
+    left: 60px;
+    text-align: left;
+}
+.design-line{
+    border-style: none none dotted;
+    border: 2px dotted rgba(22, 12, 12, 0.433); 
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+
+/* The table alignment in the center*/
+.item{
+    font-weight: bold;
+    border: 2px solid rgba(22, 12, 12, 0.433); 
+}
+.item-link{
+    border: 2px solid rgba(22, 12, 12, 0.433);
+    text-decoration: underline;
+    color: blue; 
+}
+.item-number{
+    border: 2px solid rgba(22, 12, 12, 0.433);
+    text-decoration: underline;
+    color: blue; 
+}
+
+table.center{
+    border: 2px solid rgba(22, 12, 12, 0.433); 
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 50px;
+}
+/* Table  information alignment in the center*/
+table.info{
+    border: 2px solid rgba(22, 12, 12, 0.433); 
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Contact button */
+#contact-button{
+    position: relative;
+    background-color: red;
+    color: white;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: block;
+    font-size: 24px;
+    text-align: center;     
+}
